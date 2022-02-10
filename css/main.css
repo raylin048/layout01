@@ -285,6 +285,8 @@ header div a {color: fff;}
     flex-wrap: wrap;
     margin-top: -690px;
     margin-bottom: 45px;
+    margin-left: 20px;
+    margin-right: auto;
 }
 .motion_slide .swiper-slide .list video {
     width: 60%; height: 100%;
@@ -348,7 +350,7 @@ header div a {color: fff;}
 .mySwiperyoutube .swiper-wrapper {display: none;}
 .mySwiperyoutube .swiper-wrapper.on {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 /* 유튜브리스트 컨텐츠 */
@@ -526,6 +528,7 @@ footer p {
     }
     .motion_slide .swiper-slide .list {
         width: 90%; 
+        margin-left: auto;
     }
     .motion_slide {margin: 70px auto;}
 
