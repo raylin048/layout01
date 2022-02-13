@@ -3,7 +3,21 @@
 * {margin: 0; padding: 0;}
 li {list-style: none;}
 a {text-decoration: none; color: #333; display: block;}
-html, body {color: #333;}
+html, body {color: #333;  font-family: 'HS-Regular';}
+p, dd {font-family: 'KOTRAHOPE';}
+
+@font-face {
+    font-family: 'HS-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/HS-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* header */
 header {
@@ -117,8 +131,11 @@ header div p {color: #fff;}
     margin: 150px auto;
 }
 .motion h3 {font-size: 30px;}
+.motion_in:nth-child(2) {
+    background-color: rgba(212, 234, 255, .3);
+}
 .motion_in {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
 }
 .motion_in > ul {
     display: flex;
@@ -414,6 +431,7 @@ header div p {color: #fff;}
 .g_design {
     max-width: 1280px;
     width: calc(100% - 30px);
+    background-color: rgba(212, 234, 255, .3);
     margin: 150px auto;
 }
 .g_design em {
@@ -423,12 +441,14 @@ header div p {color: #fff;}
 }
 .g_design h3 {
     text-align: center;
+    padding-top: 50px;
 }
 .g_design .img_list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 30px;
+    padding-bottom: 50px;
 }
 .g_design .img_list div {
     width: 24%; height: 20vw;
