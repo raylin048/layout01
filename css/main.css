@@ -429,6 +429,9 @@ header div p {color: #fff;}
     width: 70%;
     word-break: break-all;
 }
+.youtube_list .swiper-slide .info a {
+    text-decoration: underline #a3a8ff;
+}
 
 /***************** 2D 디자인 */
 .g_design {
