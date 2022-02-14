@@ -114,6 +114,7 @@ header div p {color: #fff;}
 .profile .about dl { 
     /* text-align: right; */
     font-size: 18px;
+    margin-bottom: 20px;
 }
 .profile .about dl dt {
     font-weight: bold;
@@ -121,7 +122,7 @@ header div p {color: #fff;}
     margin-bottom: 10px;
 }
 .profile .about dl dd {
-    margin-bottom: 7px;
+    margin-bottom: 3px;
 }
  
 /* motion */
@@ -133,8 +134,6 @@ header div p {color: #fff;}
 .motion h3 {font-size: 30px;}
 .motion_in:nth-child(2) {
     background-color: rgba(212, 234, 255, .3);
-}
-.motion_in {
     padding-bottom: 150px;
 }
 .motion_in > ul {
@@ -377,6 +376,7 @@ header div p {color: #fff;}
 .mySwiperyoutube .swiper-wrapper.on {
     display: flex;
     flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 /* 유튜브리스트 컨텐츠 */
@@ -387,10 +387,10 @@ header div p {color: #fff;}
     padding-bottom: 30px;
 }
 .youtube_list .youtube_wrap .swiper-slide {
-    width: 49%;
+    width: 48%;
     border: 1px solid #ccc;
     box-sizing: border-box;
-    margin: 0 0.5%;
+    margin: 0 0.5%; 
     margin-bottom: 20px;
 }
 
@@ -590,7 +590,6 @@ footer p {
     .motion .flex_bottom ul li:last-child {display: none;}
     .motion .flex_bottom ul li figure {height: 180px;}
 
-    .motion .motion_in {margin-bottom: 50px;}
     .motion .motion_in:nth-of-type(2) .info video { order: -1;}
 
     /* 모션그래픽디자인 슬라이드 */
@@ -638,17 +637,19 @@ footer p {
         height: 100%;
         object-fit: cover;
     }
-    .profile .about {width: 100%;}
+    .profile .about {width: 100%; text-align: center;}
 
     /* 모션그래픽디자인 */
     .motion {margin: 80px auto;} 
-    .motion .motion_in {margin-bottom: 80px;}
+    .motion h3 {text-align: center;}
+    /* .motion .motion_in {margin-bottom: 80px;} */
     .motion .motion_in > ul {flex-wrap: wrap;}
     .motion .motion_in .flex_top {
         align-items: center;
         flex-direction: column;
     }
     .motion .motion_in:last-child .flex_top {flex-direction: column-reverse;}
+    .motion_in:nth-child(2) {padding-bottom: 80px;}
 
     .motion .flex_top .info {width: 80%;}
     .motion .info h4 {margin-bottom: 10px;}
