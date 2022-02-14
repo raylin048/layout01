@@ -292,7 +292,7 @@ header div p {color: #fff;}
   }
 
 /* 모션슬라이드 */
-.motion_slide {
+/* .motion_slide {
     margin: 180px 0;
 }
 .motion_slide .swiper-slide figure {
@@ -336,19 +336,21 @@ header div p {color: #fff;}
 }
 .motion_slide .swiper-slide .info p {
     margin: 10px 0 30px;
-}
+} */
 /* 슬라이드 배경컬러 변경 */
-.motion_slide .swiper-slide figure.f2 {
+/* .motion_slide .swiper-slide figure.f2 {
     background-color: rgb(212, 234, 255);
 }
 .motion_slide .swiper-slide figure.f3 {
     background-color: rgb(255, 215, 227);
-}
+} */
 
 
 /* 영상리스트 youtube list */
+.youtube_list {background-color: rgba(212, 234, 255, .3);}
 .youtube_list h3 {
     text-align: center;
+    padding-top: 30px;
 }
 .youtube_list .motion_cate ul {
     display: flex;
@@ -382,6 +384,7 @@ header div p {color: #fff;}
     max-width: 1280px;
     width: calc(100% - 30px);
     margin: 0 auto;
+    padding-bottom: 30px;
 }
 .youtube_list .youtube_wrap .swiper-slide {
     width: 49%;
@@ -431,8 +434,7 @@ header div p {color: #fff;}
 .g_design {
     max-width: 1280px;
     width: calc(100% - 30px);
-    background-color: rgba(212, 234, 255, .3);
-    margin: 150px auto;
+    margin: 50px auto;
 }
 .g_design em {
     text-align: right;
@@ -552,7 +554,7 @@ footer p {
 @media screen and (max-width: 1024px) {
     
     /* 모션그래픽디자인 슬라이드 */
-    .motion_slide .swiper-slide figure {
+    /* .motion_slide .swiper-slide figure {
         height: 35vw;
     }
     .motion_slide .swiper-slide .list {
@@ -560,7 +562,8 @@ footer p {
     }
     .motion_slide .swiper-slide .list .info {
         margin-top: 1%; 
-    }
+    } */
+
     .g_design .img_list div img {
         max-height: 130px;
     }
@@ -587,7 +590,7 @@ footer p {
     .motion .motion_in:nth-of-type(2) .info video { order: -1;}
 
     /* 모션그래픽디자인 슬라이드 */
-    .motion_slide .swiper-slide .list video {
+    /* .motion_slide .swiper-slide .list video {
         width: 100%;
     }
     .motion_slide .swiper-slide .list .info {
@@ -598,7 +601,7 @@ footer p {
         width: 90%; 
         margin-left: auto;
     }
-    .motion_slide {margin: 70px auto;}
+    .motion_slide {margin: 70px auto;} */
 
 
     /* 유튜브 리스트 */
@@ -653,8 +656,8 @@ footer p {
     .motion .thum ul li figure {height: 120px;}
 
     /* 모션그래픽디자인 슬라이드 */
-    .motion_slide {margin: 70px auto;}
-    .motion_slide .swiper-slide .info h4 {font-size: 24px; margin-bottom: 10px;}
+    /* .motion_slide {margin: 70px auto;}
+    .motion_slide .swiper-slide .info h4 {font-size: 24px; margin-bottom: 10px;} */
  
 
     /* 유튜브리스트 */ 
@@ -687,8 +690,8 @@ footer p {
     .motion .thum {margin-top: 10px;}
 
  
-    .motion_slide .list .info dl dt {width: 30%;}
-    .motion_slide .list .info dl dd {width: 65%;}
+    /* .motion_slide .list .info dl dt {width: 30%;}
+    .motion_slide .list .info dl dd {width: 65%;} */
 
 
     /* 유튜브리스트 */
@@ -713,8 +716,8 @@ footer p {
     .motion .thum {margin-top: 10px;}
 
  
-    .motion_slide .list .info dl dt {width: 30%;}
-    .motion_slide .list .info dl dd {width: 65%;}
+    /* .motion_slide .list .info dl dt {width: 30%;}
+    .motion_slide .list .info dl dd {width: 65%;} */
 
 
     /* 유튜브리스트 */
