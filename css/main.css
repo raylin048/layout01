@@ -590,6 +590,7 @@ footer p {
     .motion .flex_bottom ul li:last-child {display: none;}
     .motion .flex_bottom ul li figure {height: 180px;}
 
+    .motion .motion_in {margin-bottom: 50px;}
     .motion .motion_in:nth-of-type(2) .info video { order: -1;}
 
     /* 모션그래픽디자인 슬라이드 */
