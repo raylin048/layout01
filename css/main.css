@@ -133,10 +133,11 @@ header div p {color: #fff; font-size: 25px;}
     margin: 150px auto;
 }
 .motion h3 {font-size: 40px; text-align: center;}
-.motion_in:nth-child(2) {
+.motion_in:nth-child(2), .motion_in:nth-child(4) {
     background-color: rgba(212, 234, 255, .3);
     padding-bottom: 150px;
 }
+.motion_in:nth-child(3) {padding-bottom: 150px;}
 .motion_in > ul {
     display: flex;
     justify-content: space-between;
